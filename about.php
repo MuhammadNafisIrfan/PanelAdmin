@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin 2 - Color Utilities</title>
+  <title>SB Admin 2 - Blank</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -63,25 +63,25 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Components:</h6>
-            <a class="collapse-item" href="buttons.html">Buttons</a>
-            <a class="collapse-item" href="cards.html">Cards</a>
+            <a class="collapse-item" href="buttons.php">Buttons</a>
+            <a class="collapse-item" href="cards.php">Cards</a>
           </div>
         </div>
       </li>
 
       <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item active">
-        <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
           <i class="fas fa-fw fa-wrench"></i>
           <span>Utilities</span>
         </a>
-        <div id="collapseUtilities" class="collapse show" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Custom Utilities:</h6>
-            <a class="collapse-item active" href="utilities-color.html">Colors</a>
-            <a class="collapse-item" href="utilities-border.html">Borders</a>
-            <a class="collapse-item" href="utilities-animation.html">Animations</a>
-            <a class="collapse-item" href="utilities-other.html">Other</a>
+            <a class="collapse-item" href="utilities-color.php">Colors</a>
+            <a class="collapse-item" href="utilities-border.php">Borders</a>
+            <a class="collapse-item" href="utilities-animation.php">Animations</a>
+            <a class="collapse-item" href="utilities-other.php">Other</a>
           </div>
         </div>
       </li>
@@ -95,53 +95,53 @@
       </div>
 
       <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
           <i class="fas fa-fw fa-folder"></i>
           <span>Pages</span>
         </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+        <div id="collapsePages" class="collapse show" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Login Screens:</h6>
-            <a class="collapse-item" href="login.html">Login</a>
-            <a class="collapse-item" href="register.html">Register</a>
-            <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
+            <a class="collapse-item" href="login.php">Login</a>
+            <a class="collapse-item" href="register.php">Register</a>
+            <a class="collapse-item" href="forgot-password.php">Forgot Password</a>
             <div class="collapse-divider"></div>
             <h6 class="collapse-header">Other Pages:</h6>
-            <a class="collapse-item" href="404.html">404 Page</a>
-            <a class="collapse-item" href="blank.html">Blank Page</a>
-            <a class="collapse-item" href="about.html">About</a>
+            <a class="collapse-item" href="404.php">404 Page</a>
+            <a class="collapse-item active" href="blank.php">Blank Page</a>
+            <a class="collapse-item" href="about.php">About</a>
           </div>
         </div>
       </li>
 
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="charts.php">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Charts</span></a>
       </li>
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable" aria-expanded="true" aria-controls="collapseTable">
-              <i class="fas fa-fw fa-table"></i>
-              <span>Tables</span></a>
-          </a>
-          <div id="collapseTable" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-              <div class="bg-white py-2 collapse-inner rounded">
-                <h6 class="collapse-header">Data:</h6>
-                <a class="collapse-item" href="register.php">Data Admin</a>
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable" aria-expanded="true" aria-controls="collapseTable">
+                <i class="fas fa-fw fa-table"></i>
+                <span>Tables</span></a>
+            </a>
+            <div id="collapseTable" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                  <h6 class="collapse-header">Data:</h6>
+                  <a class="collapse-item" href="register.php">Data Admin</a>
                   <a class="collapse-item" href="ustad.php">Data Guru</a>
                   <a class="collapse-item" href="santri.php">Data Santri</a>
-                <div class="collapse-divider"></div>
-                <h6 class="collapse-header">Rules:</h6>
-                <a class="collapse-item" href="404.html">Rules Customer</a>
-                <a class="collapse-item" href="blank.html">Rules Guru IT</a>
-                <a class="collapse-item" href="blank.html">Rules Tahfidz</a>
-                <a class="collapse-item" href="blank.html">Rules B.Arab</a>
-              </div>
-      </li>
+                  <div class="collapse-divider"></div>
+                  <h6 class="collapse-header">Rules:</h6>
+                  <a class="collapse-item" href="404.php">Rules Customer</a>
+                  <a class="collapse-item" href="blank.php">Rules Guru IT</a>
+                  <a class="collapse-item" href="blank.php">Rules Tahfidz</a>
+                  <a class="collapse-item" href="blank.php">Rules B.Arab</a>
+                </div>
+        </li>
 
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
@@ -312,10 +312,10 @@
 
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
-                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <span class="mr-2 d-none d-lg-inline text-gray-600 small">Luthfi Shatara</span>
-                  <img class="img-profile rounded-circle" src="https://pbs.twimg.com/profile_images/1039890001528377344/lu0Y8zoJ.jpg">
-                </a>
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
+                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+              </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                 <a class="dropdown-item" href="#">
@@ -346,92 +346,145 @@
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
-          <!-- Page Heading -->
-          <h1 class="h3 mb-1 text-gray-800">Color Utilities</h1>
-          <p class="mb-4">Bootstrap's default utility classes can be found on the official <a href="https://getbootstrap.com/docs">Bootstrap Documentation</a> page. The custom utilities below were created to extend this theme past the default utility classes built into Bootstrap's framework.</p>
+        
+         <!-- Section: Team v.1 -->
+<section class="team-section text-center my-5">
 
-          <!-- Content Row -->
-          <div class="row">
-
-            <!-- First Column -->
-            <div class="col-lg-4">
-
-              <!-- Custom Text Color Utilities -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Custom Text Color Utilities</h6>
-                </div>
-                <div class="card-body">
-                  <p class="text-gray-100 p-3 bg-dark m-0">.text-gray-100</p>
-                  <p class="text-gray-200 p-3 bg-dark m-0">.text-gray-200</p>
-                  <p class="text-gray-300 p-3 bg-dark m-0">.text-gray-300</p>
-                  <p class="text-gray-400 p-3 bg-dark m-0">.text-gray-400</p>
-                  <p class="text-gray-500 p-3 m-0">.text-gray-500</p>
-                  <p class="text-gray-600 p-3 m-0">.text-gray-600</p>
-                  <p class="text-gray-700 p-3 m-0">.text-gray-700</p>
-                  <p class="text-gray-800 p-3 m-0">.text-gray-800</p>
-                  <p class="text-gray-900 p-3 m-0">.text-gray-900</p>
-                </div>
-              </div>
-
-              <!-- Custom Font Size Utilities -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Custom Font Size Utilities</h6>
-                </div>
-                <div class="card-body">
-                  <p class="text-xs">.text-xs</p>
-                  <p class="text-lg mb-0">.text-lg</p>
-                </div>
-              </div>
-
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold my-5">Our amazing team</h2>
+        <!-- Section description -->
+        <p class="grey-text w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam
+          eum porro a pariatur veniam.</p>
+      
+        <!-- Grid row -->
+        <div class="row">
+      
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+            <div class="avatar mx-auto">
+              <img src="img/supriyanto.jpg" class="rounded-circle z-depth-1"
+                alt="Sample avatar" width="270" height="270">
             </div>
-
-            <!-- Second Column -->
-            <div class="col-lg-4">
-
-              <!-- Background Gradient Utilities -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Custom Background Gradient Utilities</h6>
-                </div>
-                <div class="card-body">
-                  <div class="px-3 py-5 bg-gradient-primary text-white">.bg-gradient-primary</div>
-                  <div class="px-3 py-5 bg-gradient-success text-white">.bg-gradient-success</div>
-                  <div class="px-3 py-5 bg-gradient-info text-white">.bg-gradient-info</div>
-                  <div class="px-3 py-5 bg-gradient-warning text-white">.bg-gradient-warning</div>
-                  <div class="px-3 py-5 bg-gradient-danger text-white">.bg-gradient-danger</div>
-                </div>
-              </div>
-
-            </div>
-
-            <!-- Third Column -->
-            <div class="col-lg-4">
-
-              <!-- Grayscale Utilities -->
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Custom Grayscale Background Utilities</h6>
-                </div>
-                <div class="card-body">
-                  <div class="p-3 bg-gray-100">.bg-gray-100</div>
-                  <div class="p-3 bg-gray-200">.bg-gray-200</div>
-                  <div class="p-3 bg-gray-300">.bg-gray-300</div>
-                  <div class="p-3 bg-gray-400">.bg-gray-400</div>
-                  <div class="p-3 bg-gray-500 text-white">.bg-gray-500</div>
-                  <div class="p-3 bg-gray-600 text-white">.bg-gray-600</div>
-                  <div class="p-3 bg-gray-700 text-white">.bg-gray-700</div>
-                  <div class="p-3 bg-gray-800 text-white">.bg-gray-800</div>
-                  <div class="p-3 bg-gray-900 text-white">.bg-gray-900</div>
-                </div>
-              </div>
-            </div>
-
+            <h5 class="font-weight-bold mt-4 mb-3">Supriyanto</h5>
+            <p class="text-uppercase blue-text"><strong>Teacher</strong></p>
+            <p class="grey-text">Hallo Nama Saya Supriyanto, Saya Adalah Pengajar Akselerasi Programming, Sekaligus Instruktur Website ini</p>
+            <ul class="list-unstyled mb-0">
+              <!-- Facebook -->
+              <a class="p-2 fa-lg fb-ic" href="">
+                    <i class="fab fa-facebook-f blue-text"> </i>
+                  </a>
+                  <!-- Instagram -->
+                  <a class="p-2 fa-lg yt-ic" href="https://www.instagram.com/supriyanto6543/">
+                    <i class="fab fa-instagram blue-text"> </i>
+                  </a>
+                  <!-- Youtube -->
+                  <a class="p-2 fa-lg yt-ic" href="https://www.youtube.com/channel/UChh-8VXcNLvzPl-PNwK2l1A">
+                    <i class="fab fa-youtube"> </i>
+                  </a>
+                  <!-- Github -->
+                  <a class="p-2 fa-lg ins-ic" href="https://github.com/Supriyanto6543">
+                    <i class="fab fa-github blue-text"> </i>
+                  </a>
+            </ul>
           </div>
-
+          <!-- Grid column -->
+      
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+            <div class="avatar mx-auto">
+              <img src="img/luthfi.jpg" class="rounded-circle z-depth-1"
+                alt="Sample avatar" width="270" height="270">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Luthfi Shatara</h5>
+            <p class="text-uppercase blue-text"><strong>FrontEnd & BackEnd Developer</strong></p>
+            <p class="grey-text">Hallo Nama Saya Luthfi, Tugas Saya Disini Adalah Sebagai FrontEnd & BackEnd Developer</p>
+            <ul class="list-unstyled mb-0">
+              <!-- Facebook -->
+              <a class="p-2 fa-lg fb-ic" href="">
+                <i class="fab fa-facebook-f blue-text"> </i>
+              </a>
+              <!-- Instagram -->
+              <a class="p-2 fa-lg yt-ic" href="https://www.instagram.com/luthfishatara_1420/">
+                <i class="fab fa-instagram blue-text"> </i>
+              </a>
+              <!-- Youtube -->
+              <a class="p-2 fa-lg yt-ic" href="https://www.youtube.com/channel/UC8_xGY17idDLFoUkXUIUvOA">
+                <i class="fab fa-youtube"> </i>
+              </a>
+              <!-- Github -->
+              <a class="p-2 fa-lg ins-ic" href="https://github.com/Luthfishatara">
+                <i class="fab fa-github blue-text"> </i>
+              </a>
+            </ul>
+          </div>
+          <!-- Grid column -->
+      
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6 mb-md-0 mb-5">
+            <div class="avatar mx-auto">
+              <img src="img/nafis.jpg" class="rounded-circle z-depth-1"
+                alt="Sample avatar" width="270" height="270">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Nafis Irfan</h5>
+            <p class="text-uppercase blue-text"><strong>FrontEnd & BackEnd Developer</strong></p>
+            <p class="grey-text">Hallo Nama Saya Nafis Irfan, Saya Disini Bertugas Membuat FrontEnd & BackEnd Di Website ini</p>
+            <ul class="list-unstyled mb-0">
+              <!-- Facebook -->
+              <a class="p-2 fa-lg fb-ic" href="">
+                    <i class="fab fa-facebook-f blue-text"> </i>
+                  </a>
+                  <!-- Instagram -->
+                  <a class="p-2 fa-lg yt-ic" href="https://www.instagram.com/fanapis_/">
+                    <i class="fab fa-instagram blue-text"> </i>
+                  </a>
+                  <!-- Youtube -->
+                  <a class="p-2 fa-lg yt-ic" href="">
+                    <i class="fab fa-youtube"> </i>
+                  </a>
+                  <!-- Github -->
+                  <a class="p-2 fa-lg ins-ic" href="https://github.com/nafis-0201">
+                    <i class="fab fa-github blue-text"> </i>
+                  </a>
+            </ul>
+          </div>
+          <!-- Grid column -->
+      
+          <!-- Grid column -->
+          <div class="col-lg-3 col-md-6">
+            <div class="avatar mx-auto">
+              <img src="img/royyan.jpeg" class="rounded-circle z-depth-1"
+                alt="Sample avatar" width="270" height="270">
+            </div>
+            <h5 class="font-weight-bold mt-4 mb-3">Royyan Ariefiyansyah</h5>
+            <p class="text-uppercase blue-text"><strong>MySql & DataBase</strong></p>
+            <p class="grey-text">Hallo Nama Saya Royyan, Saya Disini Bertugas Membuat Database & MySql Untuk Website Ini</p>
+            <ul class="list-unstyled mb-0">
+              <!-- Facebook -->
+              <a class="p-2 fa-lg fb-ic" href="">
+                    <i class="fab fa-facebook-f blue-text"> </i>
+                  </a>
+                  <!-- Instagram -->
+                  <a class="p-2 fa-lg yt-ic" href="https://www.instagram.com/stay_p.r.o/">
+                    <i class="fab fa-instagram blue-text"> </i>
+                  </a>
+                  <!-- Youtube -->
+                  <a class="p-2 fa-lg yt-ic" href="">
+                    <i class="fab fa-youtube"> </i>
+                  </a>
+                  <!-- Github -->
+                  <a class="p-2 fa-lg ins-ic" href="https://github.com/royyan1207070">
+                    <i class="fab fa-github blue-text"> </i>
+                  </a>
+            </ul>
+          </div>
+          <!-- Grid column -->
+      
         </div>
-        <!-- /.container-fluid -->
+        <!-- Grid row -->
+      
+      </section>
+      <!-- Section: Team v.1 -->
 
       </div>
       <!-- End of Main Content -->
@@ -440,7 +493,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
+            <span>Copyright &copy; YukBelajar 2019</span>
           </div>
         </div>
       </footer>
@@ -470,7 +523,7 @@
         <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="login.html">Logout</a>
+          <a class="btn btn-primary" href="login.php">Logout</a>
         </div>
       </div>
     </div>
