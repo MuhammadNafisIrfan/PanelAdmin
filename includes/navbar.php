@@ -84,7 +84,7 @@
       <a class="collapse-item" href="404.php">404 Page</a>
       <a class="collapse-item" href="blank.php">Blank Page</a>
       <a class="collapse-item" href="about.php">About</a>
-    </div>
+    </div>\
   </div>
 </li>
 
@@ -103,17 +103,17 @@
     </a>
     <div id="collapseTable" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
-          <h6 class="collapse-header">Data:</h6>
+          <h6 class="collapse-header">Data :</h6>
           <a class="collapse-item" href="register.php">Data Admin</a>
                   <a class="collapse-item" href="ustad.php">Data Guru</a>
                   <a class="collapse-item" href="santri.php">Data Santri</a>
           <div class="collapse-divider"></div>
-          <h6 class="collapse-header">Rules:</h6>
-          <a class="collapse-item" href="customer.php">Rules Customer</a>
-          <a class="collapse-item" href="blank.php">Rules Guru IT</a>
-          <a class="collapse-item" href="blank.php">Rules Tahfidz</a>
-          <a class="collapse-item" href="blank.php">Rules B.Arab</a>
-          <a class="collapse-item" href="blank.php">Rules Pembayaran</a>
+          <h6 class="collapse-header">Rules :</h6>
+          <a class="collapse-item" href="rlcustomer.php">Rules Customer</a>
+          <a class="collapse-item" href="rlguruit.php">Rules Guru IT</a>
+          <a class="collapse-item" href="rlgurubhsarab.php">Rules Tahfidz</a>
+          <a class="collapse-item" href="rlgurutahfidz.php">Rules B.Arab</a>
+          <a class="collapse-item" href="rlpembayaran.php">Rules Pembayaran</a>
         </div>
         </div>
 </li>
