@@ -4,50 +4,11 @@ include('includes/navbar.php');
 ?> 
 
 
-<div class="modal fade" id="addadminprofile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Add Admin Data</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <form action="code.php" method="POST">
 
-        <div class="modal-body">
-
-            <div class="form-group">
-                <label> Username </label>
-                <input type="text" name="username" class="form-control" placeholder="Enter Username">
-            </div>
-            <div class="form-group">
-                <label>Email</label>
-                <input type="email" name="email" class="form-control" placeholder="Enter Email">
-            </div>
-            <div class="form-group">
-                <label>Password</label>
-                <input type="password" name="password" class="form-control" placeholder="Enter Password">
-            </div>
-            <div class="form-group">
-                <label>Confirm Password</label>
-                <input type="password" name="confirmpassword" class="form-control" placeholder="Confirm Password">
-            </div>
-        
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="submit" name="registerbtn" class="btn btn-primary">Save</button>
-        </div>
-      </form>
-
-    </div>
-  </div>
-</div>
 
 <div class="card">
                     <div class="card-header">
-                      <h3 class="card-title">Rules Customer</h3>
+                      <h3 class="card-title">Rules Guru Tahfidz</h3>
                     </div>
 
                     <div class="card-body">
@@ -124,18 +85,14 @@ include('includes/navbar.php');
         ?>
         
         </tbody>
+        </table>
       
     </div>
   </div>
-  </table>
-      <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span>Copyright &copy; YukBelajar 2019</span>
-          </div>
-        </div>
-      </footer>
-</div>
+  <?php
+include('includes/scripts.php');
+include('includes/footer.php');
+?>
 
 
 

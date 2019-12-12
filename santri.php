@@ -36,6 +36,7 @@ include('includes/navbar.php');
                           <th>Umur</th>
                           <th>Alamat</th>
                           <th>Pendidikan</th>
+                          <th>Status</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -51,6 +52,7 @@ include('includes/navbar.php');
             <td> <?php echo $row['umur']; ?> </td>
             <td> <?php echo $row['alamat']; ?> </td>
             <td> <?php echo $row['pendidikan']; ?> </td>
+            <td> <?php echo $row['status']; ?> </td>
           </tr>
           <?php
             }
