@@ -113,6 +113,8 @@
           <a class="collapse-item" href="blank.php">Rules Guru IT</a>
           <a class="collapse-item" href="blank.php">Rules Tahfidz</a>
           <a class="collapse-item" href="blank.php">Rules B.Arab</a>
+          <a class="collapse-item" href="blank.php">Rules Pembayaran</a>
+        </div>
         </div>
 </li>
 
