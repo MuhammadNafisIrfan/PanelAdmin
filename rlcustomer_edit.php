@@ -16,7 +16,7 @@ include('includes/navbar.php');
   <div class="card-body">
 
 <?php
-$connection = mysqli_connect("localhost", "root", "", "test");
+$connection = mysqli_connect("localhost", "root", "", "rules");
   if(isset($_POST['edit_btn']))
 {
     $id = $_POST['edit_id'];
@@ -36,7 +36,7 @@ $connection = mysqli_connect("localhost", "root", "", "test");
             <input type="text" name="rules" value="<?php echo $row['rules']?>" class="form-control" placeholder="Enter Username">
         </div>
        
-            <a href="register.php" class="btn btn-danger"> CANCEL </a>
+            <a href="rlcustomer.php" class="btn btn-danger"> CANCEL </a>
             <button type="submit" name="updaterls" class="btn btn-primary"> Update </button>
 
             </form>            

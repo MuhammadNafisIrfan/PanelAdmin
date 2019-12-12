@@ -2,6 +2,7 @@
 session_start();
 
 $connection = mysqli_connect("localhost","root","","test");
+$connection2 = mysqli_connect("localhost","root","","rules");
 
 if(isset($_POST['registerbtn']))
 {
@@ -72,12 +73,12 @@ if(isset($_POST['updaterls']))
     if($query_run)
     {
         $_SESSION['success'] = "Your Data Is Updated";
-        header('Location: customer.php');
+        header('Location: rlcustomer.php');
     }
     else
     {
         $_SESSION['status'] = "Your Data Is NOT Updated";
-        header('Location: customer.php');
+        header('Location: rlcustomer.php');
     }
 }
 
