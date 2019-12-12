@@ -60,6 +60,25 @@ if(isset($_POST['updatebtn']))
     }
 }
 
+if(isset($_POST['delete_btn']))
+{
+    $id = $_POST['delete_id'];
+
+    $query = "DELETE FROM register WHERE id='$id' ";
+    $query_run = mysqli_query($connection, $query);
+
+    if($query_run)
+    {
+        $_SESSION['success'] = "Your DATA is DELETED";
+        header('Location: register.php');
+    }
+    else
+    {
+        $_SESSION['status'] = "Your DATA is NOT DELETED";
+        header('Location: register.php');
+    }
+}
+
 // customer
 
 if(isset($_POST['updaterls']))
@@ -68,7 +87,7 @@ if(isset($_POST['updaterls']))
     $rules = $_POST['rules'];
    
     $query = "UPDATE customer SET rules='$rules' WHERE id ='$id' ";
-    $query_run = mysqli_query($connection, $query);
+    $query_run = mysqli_query($connection2, $query);
 
     if($query_run)
     {
@@ -87,18 +106,18 @@ if(isset($_POST['delete_btn']))
 {
     $id = $_POST['delete_id'];
 
-    $query = "DELETE FROM register WHERE id='$id' ";
-    $query_run = mysqli_query($connection, $query);
+    $query = "DELETE FROM customer WHERE id='$id' ";
+    $query_run = mysqli_query($connection2, $query);
 
     if($query_run)
     {
         $_SESSION['success'] = "Your DATA is DELETED";
-        header('Location: register.php');
+        header('Location: rlcustomer.php');
     }
     else
     {
         $_SESSION['status'] = "Your DATA is NOT DELETED";
-        header('Location: register.php');
+        header('Location: rlcustomer.php');
     }
 }
 
