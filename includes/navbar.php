@@ -111,9 +111,9 @@
           <h6 class="collapse-header">Rules :</h6>
           <a class="collapse-item" href="rlcustomer.php">Rules Customer</a>
           <a class="collapse-item" href="rlguruit.php">Rules Guru IT</a>
-          <a class="collapse-item" href="rlgurubhsarab.php">Rules Tahfidz</a>
-          <a class="collapse-item" href="rlgurutahfidz.php">Rules B.Arab</a>
-          <a class="collapse-item" href="rlpembayaran.php">Rules Pembayaran</a>
+          <a class="collapse-item" href="rlgurubhsarab.php">Rules Guru Tahfidz</a>
+          <a class="collapse-item" href="rlgurutahfidz.php">Rules Guru B.Arab</a>
+          <a class="collapse-item" href="rlpembayaran.php">Rules Guru Pembayaran</a>
         </div>
         </div>
 </li>

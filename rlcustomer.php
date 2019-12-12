@@ -45,6 +45,7 @@ include('includes/navbar.php');
   </div>
 </div>
 
+
 <div class="card">
                     <div class="card-header">
                       <h3 class="card-title">Rules Customer</h3>
@@ -72,7 +73,7 @@ include('includes/navbar.php');
     <div class="table-responsive">
 
     <?php 
-    $connection = mysqli_connect("localhost","root","","test");
+    $connection = mysqli_connect("localhost","root","","rules");
 
     $query = "SELECT * FROM customer";
     $query_run = mysqli_query($connection, $query);
