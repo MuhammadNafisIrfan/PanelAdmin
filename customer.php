@@ -1,8 +1,7 @@
 <?php 
-session_start();
 include('includes/header.php'); 
 include('includes/navbar.php'); 
-?>
+?> 
 
 
 <div class="modal fade" id="addadminprofile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -46,20 +45,15 @@ include('includes/navbar.php');
   </div>
 </div>
 
+<div class="card">
+                    <div class="card-header">
+                      <h3 class="card-title">Rules Customer</h3>
+                    </div>
 
+                    <div class="card-body">
 <div class="container-fluid">
 
-<!-- DataTales Example -->
-<div class="card shadow mb-4">
-  <div class="card-header py-3">
-    <h6 class="m-0 font-weight-bold text-primary">Admin Profile 
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addadminprofile">
-              Add Admin Profile 
-            </button>
-    </h6>
-  </div>
 
-  <div class="card-body">
 
   <?php 
   if(isset($_SESSION['success']) && $_SESSION['success'] !='') 
@@ -80,7 +74,7 @@ include('includes/navbar.php');
     <?php 
     $connection = mysqli_connect("localhost","root","","test");
 
-    $query = "SELECT * FROM register";
+    $query = "SELECT * FROM customer";
     $query_run = mysqli_query($connection, $query);
     
     ?>
@@ -89,9 +83,7 @@ include('includes/navbar.php');
         <thead>
           <tr>
             <th> ID </th>
-            <th> Username </th>
-            <th>Email </th>
-            <th>Password</th>
+            <th> RULES </th>
             <th>EDIT </th>
             <th>DELETE </th>
           </tr>
@@ -104,15 +96,14 @@ include('includes/navbar.php');
             {
                 ?>
 
-
                  
           <tr>
             <td> <?php echo $row['id']; ?> </td>
-            <td> <?php echo $row['username']; ?> </td>
-            <td> <?php echo $row['email']; ?> </td>
-            <td> <?php echo $row['password']; ?> </td>
+            <td> <?php echo $row['rules']; ?> </td>
+           
            <td>
-                <form action="register_edit.php" method="post">
+         
+                <form action="customer_edit.php" method="post">
                     <input type="hidden" name="edit_id" value="<?php echo $row['id']; ?>">
                     <button  type="submit" name="edit_btn" class="btn btn-success"> EDIT</button>
                 </form>
@@ -133,14 +124,18 @@ include('includes/navbar.php');
         ?>
         
         </tbody>
-      </table>
-
+      
     </div>
   </div>
+  </table>
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; YukBelajar 2019</span>
+          </div>
+        </div>
+      </footer>
 </div>
 
 
-<?php
-include('includes/scripts.php');
-include('includes/footer.php');
-?>
+

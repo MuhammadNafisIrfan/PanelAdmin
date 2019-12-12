@@ -59,6 +59,28 @@ if(isset($_POST['updatebtn']))
     }
 }
 
+// customer
+
+if(isset($_POST['updaterls']))
+{
+    $id = $_POST['edit_id'];
+    $rules = $_POST['rules'];
+   
+    $query = "UPDATE customer SET rules='$rules' WHERE id ='$id' ";
+    $query_run = mysqli_query($connection, $query);
+
+    if($query_run)
+    {
+        $_SESSION['success'] = "Your Data Is Updated";
+        header('Location: customer.php');
+    }
+    else
+    {
+        $_SESSION['status'] = "Your Data Is NOT Updated";
+        header('Location: customer.php');
+    }
+}
+
 
 
 ?>
