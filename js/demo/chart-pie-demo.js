@@ -9,7 +9,7 @@ var myPieChart = new Chart(ctx, {
   data: {
     labels: ["Diterima", "Ditolak"],
     datasets: [{
-      data: [70, 30],
+      data: [80, 20],
       backgroundColor: ['#4e73df', '#ed0202'],
       hoverBackgroundColor: ['#4e73df', '#ed0202'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
